@@ -1,0 +1,66 @@
+import streamlit as st
+def app():
+    with st.container():
+        st.title("Suggestions")
+        st.subheader("Here you can find some examples of safe websites related to a particular field")
+        col1,col2,col3=st.columns(3)
+        with col1:
+            st.subheader("Arts & Entertainment")
+            st.markdown(" Youtube[link](https://www.youtube.com/)")
+            st.write("Netflix [link](https://www.netflix.com/)")
+            st.write("Spotify [link](https://www.spotify.com/)")
+            st.write("IMDB [link](https://www.imdb.com/)")
+            st.write("Prime [link](https://www.primevideo.com/)")
+            st.write("Hotstar [link](https://www.hotstar.com/)")
+            st.write("Daily Motion [link](https://www.dailymotion.com/)")
+            st.write('##')
+            st.subheader("Books & Literarture")
+            st.write("Ficbook [link](https://www.ficbook.net/)")
+            st.write("Thriftbook [link](https://www.thriftbooks.com/)")
+            st.write("WebNovel [link](https://www.webnovel.com/)")
+            st.write("NovelCool [link](https://www.novelcool.com/)")
+            st.write("VitalSource [link](https://www.vitalsource.com/)")
+            st.write("Readawrite [link](https://www.readawrite.com/)")
+            st.write("Akniga [link](https://www.akniga.org/)")
+            
+
+        with col2:
+           
+            st.subheader("Music")
+            st.write("Spotify [link](https://www.spotify.com/)")
+            st.write("Soundcloud [link](https://www.soundcloud.com/)")
+            st.write("Genius [link](https://www.genius.com/)")
+            st.write("RollingStone [link](https://www.rollingstone.com/)")
+            st.write("iHeart [link](https://www.iheart.com/)")
+            st.write("Billboard [link](https://www.billboard.com/)")
+            st.write("Pandora [link](https://www.pandora.com/)")
+            st.write('##')
+            st.subheader("Marketing & Advertising")
+            st.write("Cint [link](https://www.cint.com/)")
+            st.write("Appier [link](https://www.appier.net/)")
+            st.write("Alchemer [link](https://www.alchemer.com/)")
+            st.write("Innovid [link](https://www.innovid.com/)")
+            st.write("Acquisition [link](https://www.acquisition.com/)")
+            st.write("Vista [link](https://www.vista.com/)")
+            st.write("Brevo [link](https://www.brevo.com/)")
+        with col3:
+
+            st.subheader("eCommerce")
+            st.write("Amazon [link](https://www.amazon.com/)")
+            st.write("Flipkart [link](https://www.flipkart.com/)")
+            st.write("Myntra [link](https://www.myntra.com/)")
+            st.write("Ebay [link](https://www.ebay.com/)")
+            st.write("Walmart [link](https://www.walmart.com/)")
+            st.write("AliBaba [link](https://www.alibaba.com/)")
+            st.write("IndiaMart [link](https://www.indiamart.com/)")
+            st.write('##')
+            st.subheader("Nutrition & Fitness")
+            st.write("Prevention [link](https://www.prevention.com/)")
+            st.write("Verywellfit [link](https://www.verywellfit.com/)")
+            st.write("Livestrong [link](https://www.livestrong.com/)")
+            st.write("Crossfit [link](https://www.crossfit.com/)")
+            st.write("Eatthis [link](https://www.eatthis.com/)")
+            st.write("MensHealth [link](https://www.menshealth.com/)")
+            st.write("Myfitnesspal [link](https://www.myfitnesspal.com/)")
+           
+                
